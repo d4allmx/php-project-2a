@@ -1,0 +1,104 @@
+#welcome-block {
+  background-color: #ff5b50;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#welcome-block {
+  .welcome-block-wrapper {
+    .title-wrapper {
+      .title {
+        h1 {
+          color: #FFFFFF;
+          text-transform: uppercase;
+          letter-spacing: 8px;
+          font-size: 30px;//FONT
+          margin-top: 70px;
+          margin-bottom: 20px;//POSITION affects hr position
+        }
+        hr {
+          width: 80px;
+          height: 2px;
+          background-color: #FFFFFF;
+          text-align: center;//STYLE
+          margin-top: 0px;
+          margin-bottom: 70px;//POSITION
+        }
+      }
+    }
+
+    .cols-wrapper {
+      .container-fluid {
+        .row {
+          .column {
+            p {
+              color: #FFFFFF;
+              font-size: 15px;
+              text-align: left;
+              line-height: 21px;
+              letter-spacing: 1px;//FONT
+              margin-bottom: 34px;//POSITION
+            }
+          }
+        }
+      }
+    }
+
+    .cta-wrapper {
+      .cta {
+        input {
+          color: #000000;
+          font-size: 14px;
+          text-align: center;
+          letter-spacing: 1px;
+          font-weight: lighter; //FONT
+          border-color: #FFFFFF;
+          border-width: 2px;
+          border-style: solid;
+          border-radius: 32px;
+          padding-top: 25px;
+          padding-bottom: 25px;
+          padding-left: 45px;
+          padding-right: 45px;
+          background-color: #FFFFFF;//CTA
+          margin-bottom: 70px;//POSITION
+        }
+        input:hover {
+          background-color: black;
+          border-color: black;
+          color: #FFFFFF;
+          transition: .3s
+        }
+      }
+    } 
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  #welcome-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  #welcome-block {
+    .welcome-block-wrapper {
+      .cols-wrapper {
+        .container-fluid {
+          .row {
+            .column {
+              p {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

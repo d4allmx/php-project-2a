@@ -12,6 +12,7 @@
   <body>
     <?php include('inc/header.inc'); ?>
     <?php include('inc/homepage/homepage-hero.inc'); ?>
+    <?php include('inc/homepage/10-tabs-block.inc'); ?>
     <?php include('inc/footer.inc'); ?>
   </body>
 </html>

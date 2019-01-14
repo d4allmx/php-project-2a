@@ -6,11 +6,14 @@
 <meta name="author" content="">
 <link rel="icon" href="<?php echo $level . 'favicon.png'; ?>">
 
+<!-- jQuery JS -->
+<script src="<?php echo $level . 'js/jquery.min.js'; ?>"></script>
+
 <!-- Bootstrap core CSS -->
 <link href="<?php echo $level . 'bootstrap/dist/css/bootstrap.min.css'; ?>" rel="stylesheet">
 
-<!-- jQuery JS -->
-<script src="<?php echo $level . 'js/jquery.min.js'; ?>"></script>
+<!-- Bootstrap core JS -->
+<link href="<?php echo $level . 'bootstrap/dist/js/bootstrap.min.js'; ?>" rel="stylesheet">
 
 <!-- mmenu library -->
 <script src="<?php echo $level . 'js/mmenu/jquery.mmenu.min.js'; ?>"></script>

@@ -1,18 +1,19 @@
 <div id="hero">
-  <div class="hero-wrapper">
-    <div class="title-wrapper">
-      <div class="title">
-        <h1>Reach your bodybuilding goals!</h1>
-      </div>
-    </div>
-    <div class="paragraph-wrapper">
-      <div class="paragraph">
-        <p>Bodybuilding takes a lot of hard work and dedication</p>
-      </div>
-    </div>
-    <div class="cta-wrapper">
-      <div class="cta" align="center">
-        <input type="button" name="read-more" value="Read More">
+  <div class="slide">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class = "cycle-slideshow" 
+            ciclo de datos-fx = scrollHorz
+            data-cycle-timeout = 0>
+            <! - anterior / siguiente enlaces ->
+            <div class = "cycle-prev"> </div> 
+            <div class = "cycle-next"> </div>
+            <img src = "/images/home-slider-1-slide-1.jpg">
+            <img src = "/images/home-slider-1-slide-2.jpg">
+            <img src = "/images/home-slider-1-slide-3.jpg">
+          </div>
+        </div>
       </div>
     </div>
   </div>

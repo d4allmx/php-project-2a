@@ -5,7 +5,7 @@
 
 <div id="header">
   <div class="logo-wrapper">
-    <img src="img/logo.png" class="logo">
+    <!-- <img src="img/logo.png" class="logo"> -->
   </div>
   <nav id="my-menu">
     <ul>
@@ -35,7 +35,7 @@
     <div class="row">
       <div class="col-xs-6">
         <div class="logo">
-          <img src="img/logo2.png" class="img-responsive">
+          <!-- <img src="img/logo2.png" class="img-responsive"> -->
         </div>
       </div>
       <div class="col-xs-1">

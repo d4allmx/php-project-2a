@@ -8,24 +8,21 @@
     <!-- <img src="img/logo.png" class="logo"> -->
   </div>
   <nav id="my-menu">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a>
-         <ul class="Vertical">
-            <li><a href="#">What we offer</a></li>
-              <li><a href="#"><dir>Bodybuilding exercises</dir></a></li>
-              <li><a href="#"><dir>Bodybuilding nutrition</dir></a></li>
-              <li><a href="#"><dir>Training packages</dir></a></li>
-              <li><a href="#"><dir>Gym equipment</dir></a></li>
-            <li><a href="#">Benefits</a></li>
-            <li><a href="#">Our programs</a></li>
-            <li><a href="#">Testimonials</a></li>
-         </ul>
+    <ul class="">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">PAGES</a></li>
+      <li><a href="#">PORTFOLIO</a></li>
+      <li><a href="#">BLOG</a>
+        <ul>
+          <li><a href="#">Blog classic</a></li>
+          <li><a href="#">Blog grid</a></li>
+          <li><a href="#">Blog line</a></li>
+          <li><a href="#">Blog masonry</a></li>
+          <li><a href="#">Blog post</a></li>
+        </ul>
       </li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">News</a></li>
-      <li><a href="#">Gallery</a></li>
-      <li><a href="#">Contacts</a></li>
+      <li><a href="#">SHOP</a></li>
+      <li><a href="#">COMPONENTS</a></li>
     </ul>
   </nav>
 </div>
@@ -35,7 +32,7 @@
     <div class="row">
       <div class="col-xs-6">
         <div class="logo">
-          <!-- <img src="img/logo2.png" class="img-responsive"> -->
+          <img src="images/logo-black.svg" class="img-responsive">
         </div>
       </div>
       <div class="col-xs-1">

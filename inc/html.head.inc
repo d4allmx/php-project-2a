@@ -17,8 +17,15 @@
 <script src="<?php echo $level . 'js/mmenu/jquery.mmenu.fixedelements.min.js'; ?>"></script>
 <link rel="stylesheet" type="text/css" href="<?php echo $level . 'css/mmenu.min.css'; ?>" />
 
+<!-- Cycle2 JS library -->
+<script src="<?php echo $level . 'js/cycle2/jquery.cycle2.min.js'; ?>"></script>
+<script src="<?php echo $level . 'js/cycle2/jquery.cycle2.carousel.min.js'; ?>"></script>
+
 <!-- Global Scripts from D4ALL JS -->
 <script src="<?php echo $level . 'js/scripts.js'; ?>"></script>
+
+<!-- Hero Slider from D4ALL JS -->
+<script src="<?php echo $level . 'js/hero.slider.js'; ?>"></script>
 
 <!-- Global Styles from D4ALL CSS -->
 <link href="<?php echo $level . 'css/styles.css'; ?>" rel="stylesheet">

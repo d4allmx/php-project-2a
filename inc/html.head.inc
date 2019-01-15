@@ -6,19 +6,24 @@
 <meta name="author" content="">
 <link rel="icon" href="<?php echo $level . 'favicon.png'; ?>">
 
-<!-- jQuery JS -->
-<script src="<?php echo $level . 'js/jquery.min.js'; ?>"></script>
-
 <!-- Bootstrap core CSS -->
 <link href="<?php echo $level . 'bootstrap/dist/css/bootstrap.min.css'; ?>" rel="stylesheet">
 
+<!-- mmenu core CSS -->
+<link rel="stylesheet" type="text/css" href="<?php echo $level . 'css/mmenu.min.css'; ?>" />
+
+<!-- Global Styles from D4ALL CSS -->
+<link href="<?php echo $level . 'css/styles.css'; ?>" rel="stylesheet">
+
+<!-- jQuery JS -->
+<script src="<?php echo $level . 'js/jquery.min.js'; ?>"></script>
+
 <!-- Bootstrap core JS -->
-<link href="<?php echo $level . 'bootstrap/dist/js/bootstrap.min.js'; ?>" rel="stylesheet">
+<script src="<?php echo $level . 'bootstrap/dist/js/bootstrap.min.js'; ?>"></script>
 
 <!-- mmenu library -->
 <script src="<?php echo $level . 'js/mmenu/jquery.mmenu.min.js'; ?>"></script>
 <script src="<?php echo $level . 'js/mmenu/jquery.mmenu.fixedelements.min.js'; ?>"></script>
-<link rel="stylesheet" type="text/css" href="<?php echo $level . 'css/mmenu.min.css'; ?>" />
 
 <!-- Cycle2 JS library -->
 <script src="<?php echo $level . 'js/cycle2/jquery.cycle2.min.js'; ?>"></script>
@@ -29,9 +34,6 @@
 
 <!-- Hero Slider from D4ALL JS -->
 <script src="<?php echo $level . 'js/hero.slider.js'; ?>"></script>
-
-<!-- Global Styles from D4ALL CSS -->
-<link href="<?php echo $level . 'css/styles.css'; ?>" rel="stylesheet">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>

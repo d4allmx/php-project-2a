@@ -1,18 +1,91 @@
 <div id="tabs-block">
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+    <li role="presentation" class="active"><a href="#all" aria-controls="home" role="tab" data-toggle="tab">All</a></li>
+    <li role="presentation">
+      <a href="#home" aria-controls="profile" role="tab" data-toggle="tab">
+        Home
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#blog" aria-controls="messages" role="tab" data-toggle="tab">
+        Blog
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#shop" aria-controls="settings" role="tab" data-toggle="tab">
+        Shop
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#portfolio" aria-controls="settings" role="tab" data-toggle="tab">
+        Portfolio
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#pages" aria-controls="settings" role="tab" data-toggle="tab">
+        Pages
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#component" aria-controls="settings" role="tab" data-toggle="tab">
+        Components
+      </a>
+    </li>
   </ul>
-
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home"><img src="/images/1.jpeg" class="img-fluid"></div>
-    <div role="tabpanel" class="tab-pane" id="profile"><img src="/images/2.jpg" class="img-fluid"></div>
-    <div role="tabpanel" class="tab-pane" id="messages"><img src="/images/3.jpeg" class="img-fluid"></div>
-    <div role="tabpanel" class="tab-pane" id="settings"><img src="/images/1524913221_572475_1524913364_noticia_normal.jpg" alt="1524913221_572475_1524913364_noticia_normal" width="1200" height="675">
-    </div>
-  </div>
-</div>
+    <div role="tabpanel" class="tab-pane active" id="all">
+      <div class="row">
+        <div class="col-md-3 item">
+          <img src="images/1.jpg" alt="1" width="550" height="420" class="img-responsive">
+          <div class="caption">
+            <p><strong>Starbis</strong></p>
+          </div>
+        </div> <!-- /.col-md-3 -->
+        <div class="col-md-3 item">
+          <img src="images/1.jpg" alt="1" width="550" height="420" class="img-responsive">
+          <div class="caption">
+            <p><strong>Starbis</strong></p>
+          </div>
+        </div> <!-- /.col-md-3 -->
+        <div class="col-md-3 item">
+          <img src="images/1.jpg" alt="1" width="550" height="420" class="img-responsive">
+          <div class="caption">
+            <p><strong>Starbis</strong></p>
+          </div>
+        </div> <!-- /.col-md-3 -->
+        <div class="col-md-3 item">
+          <img src="images/1.jpg" alt="1" width="550" height="420" class="img-responsive">
+          <div class="caption">
+            <p><strong>Starbis</strong></p>
+          </div>
+        </div> <!-- /.col-md-3 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.tabpanel -->
+
+    <div role="tabpanel" class="tab-pane" id="home">
+      <p>Home</p>
+    </div> <!-- /.tabpanel -->
+
+    <div role="tabpanel" class="tab-pane" id="blog">
+      <p>Blog</p>
+    </div> <!-- /.tabpanel -->
+
+    <div role="tabpanel" class="tab-pane" id="shop">
+      <p>Shop</p>
+    </div> <!-- /.tabpanel -->
+
+    <div role="tabpanel" class="tab-pane" id="portfolio">
+      <p>Portfolio</p>
+    </div> <!-- /.tabpanel -->
+
+    <div role="tabpanel" class="tab-pane" id="pages">
+      <p>Pages</p>
+    </div> <!-- /.tabpanel -->
+
+    <div role="tabpanel" class="tab-pane" id="components">
+      <p>Componentes</p>
+    </div><!-- /.tabpanel -->
+  </div> <!-- /.tab-content -->
+</div> <!-- /#tabs-block -->

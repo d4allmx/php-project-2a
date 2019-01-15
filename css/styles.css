@@ -20,9 +20,9 @@
   transform: none !important;
 }
 #header-mobile .logo {
-  width: 150px;
+  width: 100px;
   height: auto;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 10px;
 }
 #header-mobile p {
@@ -122,30 +122,10 @@
   #header {
     display: none;
   }
-  #header-desktop {
-    display: block;
-    margin-top: -35px;
-    padding: 20px;
-    position: fixed;
-    overflow: hidden;
-    width: 100vw;
-    z-index: 6;
+  .navbar {
     background-color: white;
   }
-  #header-desktop .col-xs-1 {
-    padding: 10px;
-  }
-  #header-desktop .mm-page.mm-slideout {
-    padding-top: 100px;
-  }
-  #header-desktop .row {
-    margin-right: 0px;
-  }
-  #header-desktop .logo {
-    width: 100%;
-    height: auto;
-  }
-  #header-desktop .container {
+  .container {
     padding: 0px;
     padding-right: 40px;
     margin: 0px;
@@ -153,15 +133,18 @@
     height: auto;
     background-color: transparent;
   }
-  #header-desktop a {
+  a {
     text-decoration: none;
     color: black;
     font-size: 12px;
     padding: 10px 15px 10px 15px;
     font-weight: 300;
   }
-  #header-desktop a:hover {
+  a:hover {
     color: black;
+  }
+  .input-group {
+    margin-top: 10px;
   }
 }
 #tabs-block {

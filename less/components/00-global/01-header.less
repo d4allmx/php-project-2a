@@ -7,6 +7,13 @@
   background: white;
   overflow: hidden;
 
+  .logo{
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
   -webkit-transform: none !important;
   -moz-transform: none !important;
   -ms-transform: none !important;
@@ -63,11 +70,8 @@
   height: 50px;
   line-height: 50px;
   font-size: 20px;
-  margin-left: 20px;
   display: block;
   text-decoration: none;
-  position: relative;
-  padding-left: 48px;
   text-align: left;
   text-indent: -9999999999px;
   -webkit-transition: all .2s ease-in-out;
@@ -114,15 +118,6 @@
     height: auto;
     background-color: #ff5b50;
   }
-
-  .logo{
-    width: 200px;
-    height: auto;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
 }
 
 #header-desktop{
@@ -140,15 +135,21 @@
 
   #header-desktop{
     display: block;
-    margin-top: -50px;
+    margin-top: -35px;
+    padding: 20px;
     position: fixed;
     overflow: hidden;
-    width: 100%;
-    z-index: 999;
+    width: 100vw;
+    z-index: 6;
+    background-color: white;
 
     .col-xs-1{
-      margin-top: 50px;
+      padding: 10px;
     }
+
+    .mm-page.mm-slideout {
+      padding-top: 100px;
+  }
 
     .row {
       margin-right: 0px;
@@ -170,19 +171,14 @@
 
     a{
       text-decoration: none;
-      color: #fff;
+      color: black;
       font-size: 12px;
       padding: 10px 15px 10px 15px;
       font-weight: 300;
     }
 
     a:hover{
-      background-color: #ff5b50;
-      color: #fff;
-    }
-
-    .home{
-      color: #ff5b50;
+      color: black;
     }
   }
 }

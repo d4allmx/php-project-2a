@@ -8,7 +8,6 @@
     <?php include('inc/html.head.inc'); ?>
     <title>HomePage | PHP Project 2a</title>
   </head>
-
   <body>
     <?php include('inc/header.inc'); ?>
     <?php include('inc/homepage/homepage-hero.inc'); ?>

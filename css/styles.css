@@ -19,6 +19,12 @@
   -o-transform: none !important;
   transform: none !important;
 }
+#header-mobile .logo {
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 #header-mobile p {
   font-size: 25px;
   letter-spacing: 8px;
@@ -64,11 +70,8 @@
   height: 50px;
   line-height: 50px;
   font-size: 20px;
-  margin-left: 20px;
   display: block;
   text-decoration: none;
-  position: relative;
-  padding-left: 48px;
   text-align: left;
   text-indent: -9999999999px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -109,14 +112,6 @@
   height: auto;
   background-color: #ff5b50;
 }
-#header .logo {
-  width: 200px;
-  height: auto;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
 #header-desktop {
   display: none;
 }
@@ -129,14 +124,19 @@
   }
   #header-desktop {
     display: block;
-    margin-top: -50px;
+    margin-top: -35px;
+    padding: 20px;
     position: fixed;
     overflow: hidden;
-    width: 100%;
-    z-index: 999;
+    width: 100vw;
+    z-index: 6;
+    background-color: white;
   }
   #header-desktop .col-xs-1 {
-    margin-top: 50px;
+    padding: 10px;
+  }
+  #header-desktop .mm-page.mm-slideout {
+    padding-top: 100px;
   }
   #header-desktop .row {
     margin-right: 0px;
@@ -155,16 +155,12 @@
   }
   #header-desktop a {
     text-decoration: none;
-    color: #fff;
+    color: black;
     font-size: 12px;
     padding: 10px 15px 10px 15px;
     font-weight: 300;
   }
   #header-desktop a:hover {
-    background-color: #ff5b50;
-    color: #fff;
-  }
-  #header-desktop .home {
-    color: #ff5b50;
+    color: black;
   }
 }

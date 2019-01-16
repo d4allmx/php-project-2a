@@ -5,6 +5,14 @@
   font-weight: normal;
   font-style: normal;
 }
+.btn {
+  padding: 17px 70px;
+  margin-bottom: 15px;
+}
+.btn.default {
+  background-color: #5dc2a7;
+  color: #ffffff;
+}
 #header-mobile {
   position: fixed;
   top: 0;
@@ -163,6 +171,16 @@
   padding: 500px 0;
   width: 100%;
 }
+#hero .slide-item.slide1 {
+  background-image: url('../images/home-slider-1-slide-1.jpg');
+  z-index: 1;
+}
+#hero .slide-item.slide2 {
+  background-image: url('../images/home-slider-1-slide-2.jpg');
+}
+#hero .slide-item.slide3 {
+  background-image: url('../images/home-slider-1-slide-3.jpg');
+}
 #hero .slide-item .trans {
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -176,42 +194,32 @@
   font-size: 45px;
   margin-bottom: 50px;
 }
-#hero .icon {
+#hero .slide-item .icon {
   display: none;
   font-size: 40px;
   color: #ffffff;
   z-index: 102;
 }
-#hero .prev {
+#hero .slide-item .icon:before {
+  font-family: 'FontAwesome';
+}
+#hero .slide-item .icon.prev:before {
+  content: "\f060";
+}
+#hero .slide-item .icon.next:before {
+  content: "\f061";
+}
+#hero .slide-item .prev {
   position: absolute;
   left: 10px;
   top: 600px;
 }
-#hero .next {
+#hero .slide-item .next {
   position: absolute;
   right: 10px;
   top: 600px;
 }
-#hero .icon:before {
-  font-family: 'FontAwesome';
-}
-#hero .icon.prev:before {
-  content: "\f060";
-}
-#hero .icon.next:before {
-  content: "\f061";
-}
-#hero .slide-item.slide1 {
-  background-image: url('../images/home-slider-1-slide-1.jpg');
-  z-index: 1;
-}
-#hero .slide-item.slide2 {
-  background-image: url('../images/home-slider-1-slide-2.jpg');
-}
-#hero .slide-item.slide3 {
-  background-image: url('../images/home-slider-1-slide-3.jpg');
-}
-#hero .body {
+#hero .slide-item .body {
   display: none;
 }
 @media (min-width: 768px) {
@@ -230,7 +238,7 @@
     display: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   #hero .icon {
     display: block;
   }
@@ -268,14 +276,6 @@
   #tabs-block .item + .item {
     margin-top: 0;
   }
-}
-.default {
-  background-color: #5dc2a7;
-  color: #ffffff;
-}
-.btn {
-  padding: 17px 70px;
-  margin-bottom: 15px;
 }
 #hero .slide-item {
   background-size: cover;

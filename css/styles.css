@@ -74,7 +74,7 @@
 }
 .mm-menu a:hover,
 .mm-listitem a:hover {
-  background-color: #000;
+  background-color: #23dd23;
   color: #fff;
 }
 .mm-listitem_opened > .mm-listitem__btn,
@@ -122,6 +122,18 @@
 .mm-wrapper_opening #menu-button:before {
   content: "\f063";
 }
+#search-mobile {
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+}
+#search-mobile .form-control {
+  border-style: none;
+}
+#search-mobile .input-group-btn .btn {
+  border-style: none;
+  padding: 0;
+}
 #header #my-menu {
   font-family: 'gotham', sans-serif;
   font-weight: 300;
@@ -141,16 +153,24 @@
   #header {
     display: none;
   }
+  #header-desktop {
+    display: block;
+    text-align: center;
+    background-color: white;
+    height: 80px;
+  }
+  #header-desktop * {
+    padding-top: 5px;
+  }
+  #header-desktop .input-group {
+    display: none;
+  }
+  #header-desktop .btn-search:before {
+    content: '\f002';
+    font-family: 'FontAwesome';
+  }
   #header-desktop .navbar {
     background-color: white;
-  }
-  #header-desktop .container {
-    padding: 0px;
-    padding-right: 40px;
-    margin: 0px;
-    width: 100%;
-    height: auto;
-    background-color: transparent;
   }
   #header-desktop a {
     text-decoration: none;

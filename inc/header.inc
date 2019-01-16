@@ -24,8 +24,8 @@
   </nav>
 </div>
 
-<nav class="navbar navbar-fixed-top">
-  <div class="container-fluid">
+<nav id="header-desktop" class="navbar navbar-fixed-top">
+  <div class="container">
     <div class="logo navbar-header">
       <img src="images/logo-black.svg" class="navbar-brand img-responsive">
     </div>
@@ -46,7 +46,7 @@
       <li><a href="#">COMPONENT</a></li>
     </ul>
     <div class="input-group">
-      <input type="text" class="form-control d-none" placeholder="Search">
+      <input type="text" class="form-control" placeholder="Search">
       <div class="input-group-btn">
         <button class="btn btn-default" type="submit">
           <i class="glyphicon glyphicon-search"></i>

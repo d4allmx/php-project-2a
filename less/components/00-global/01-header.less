@@ -6,19 +6,18 @@
   height: 50px;
   background: white;
   overflow: hidden;
-
-  .logo{
-    width: 100px;
-    height: auto;
-    margin-top: 15px;
-    margin-bottom: 10px;
-  }
-
   -webkit-transform: none !important;
   -moz-transform: none !important;
   -ms-transform: none !important;
   -o-transform: none !important;
   transform: none !important;
+ 
+   .logo{
+    width: 100px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
 
   p{
     font-size: 25px;
@@ -133,7 +132,8 @@
     display:none;
   }
 
-  .navbar{
+  #header-desktop {
+    .navbar{
     background-color: white;
   }
 
@@ -152,13 +152,14 @@
     font-size: 12px;
     padding: 10px 15px 10px 15px;
     font-weight: 300;
-  }
 
-  a:hover{
-    color: black;
+    &:hover{
+      color: black;
+    }
   }
 
   .input-group{
     margin-top: 10px;
+  }
   }
 }

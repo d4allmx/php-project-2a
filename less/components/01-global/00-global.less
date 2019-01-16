@@ -9,10 +9,23 @@
 
 .btn{
   padding: 17px 70px;
-  margin-bottom: 15px;
+  background-color: rgb(93, 194, 167);
+  color: #ffffff;
 
-  &.default{
-    background-color: rgb(93, 194, 167);
+  &:hover{
+    background-color: #42b294;
+    border-color: #42b294;
     color: #ffffff;
+  }
+
+  &.trans{
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
+
+    &:hover{
+      background-color: rgb(93, 194, 167);
+      border-color: rgb(93, 194, 167);
+    }
   }
 }

@@ -6,7 +6,7 @@
       <span class="icon next"></span>
     </div>
     <!-- slideshow -->
-    <div class="cycle-slideshow" 
+    <div class="cycle-slideshow"
       data-cycle-fx="scrollHorz"
       data-cycle-timeout="0"
       data-cycle-prev=".prev"

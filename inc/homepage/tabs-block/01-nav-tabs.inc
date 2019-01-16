@@ -30,7 +30,7 @@
     </a>
   </li>
   <li role="presentation">
-    <a href="#component" aria-controls="settings" role="tab" data-toggle="tab">
+    <a href="#components" aria-controls="settings" role="tab" data-toggle="tab">
       Components
     </a>
   </li>

@@ -1,8 +1,18 @@
 var mmenu1;
 
 $(document).ready(function() {
-  $('#my-menu').mmenu();
+  $('#my-menu').mmenu({
+      searchfield:{
+      add: true,
+      search: false
+      }
+    }
+  );
+
+
   mmenu1 = $('#my-menu').data('mmenu');
+
+  $('#my-menu').find( ".mm-search" ).append( "<input type='submit' />" )
 });
 
 $(document).on('click', '#menu-button', function () {
@@ -22,9 +32,9 @@ var mmenu2;
 
 $(document).ready(function() {
   $('#my-menu2').mmenu({
-           "extensions": [
+          "extensions": [
           "position-right"
-       ]
+      ]
   });
   mmenu2 = $('#my-menu2').data('mmenu');
 });

@@ -25,7 +25,7 @@
 </div>
 
 <nav id="header-desktop" class="navbar navbar-fixed-top">
-  <div class="container">
+  <div class="container centered">
     <div class="logo navbar-header">
       <img src="images/logo-black.svg" class="navbar-brand img-responsive">
     </div>
@@ -44,14 +44,12 @@
         </li>
       <li><a href="#">SHOP</a></li>
       <li><a href="#">COMPONENT</a></li>
+      <li><a href="#" class="btn-search">&nbsp;</a></li>
     </ul>
     <div class="input-group">
-      <input type="text" class="form-control" placeholder="Search">
-      <div class="input-group-btn">
-        <button class="btn btn-default" type="submit">
-          <i class="glyphicon glyphicon-search"></i>
-        </button>
-      </div>
-      </div>
+      <form action="/search" method="get">
+        <input type="text" class="form-control" placeholder="Search">
+      </form>
+    </div>
   </div>
 </nav>

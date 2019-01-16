@@ -11,8 +11,8 @@
   -ms-transform: none !important;
   -o-transform: none !important;
   transform: none !important;
- 
-   .logo{
+
+  .logo{
     width: 100px;
     height: auto;
     margin-top: 15px;
@@ -53,7 +53,7 @@
 }
 
 .mm-menu a:hover, .mm-listitem a:hover{
-  background-color: #000;
+  background-color: #23dd23;
   color: #fff;
 }
 
@@ -106,6 +106,23 @@
   }
 }
 
+#search-mobile {
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+
+  .form-control {
+    border-style: none;
+  }
+
+  .input-group-btn {
+    .btn {
+      border-style: none;
+      padding: 0;
+    }
+  }
+}
+
 #header{
   #my-menu{
     font-family: 'gotham',sans-serif;
@@ -133,33 +150,44 @@
   }
 
   #header-desktop {
-    .navbar{
+    display: block;
+    text-align: center;
     background-color: white;
-  }
+    height: 80px;
 
-  .container{
-    padding: 0px;
-    padding-right: 40px;
-    margin: 0px;
-    width: 100%;
-    height: auto;
-    background-color: transparent;
-  }
-
-  a{
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-    padding: 10px 15px 10px 15px;
-    font-weight: 300;
-
-    &:hover{
-      color: black;
+    * {
+      padding-top: 5px;
     }
+
+    .input-group{
+      display: none;
+    }
+
+    .btn-search{
+      &:before{
+        content: '\f002';
+        font-family: 'FontAwesome';
+      }
+    }
+
+    .navbar{
+      background-color: white;
   }
 
-  .input-group{
-    margin-top: 10px;
-  }
+    a{
+      text-decoration: none;
+      color: black;
+      font-size: 12px;
+      padding: 10px 15px 10px 15px;
+      font-weight: 300;
+
+      &:hover{
+        color: black;
+      }
+    }
+
+    .input-group{
+      margin-top: 10px;
+    }
   }
 }

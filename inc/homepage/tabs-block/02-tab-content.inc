@@ -1,29 +1,35 @@
 <div class="tab-content">
   <div role="tabpanel" class="tab-pane active" id="all">
     <?php include('inc/homepage/tabs-block/tab-panel/00-home.inc'); ?>
+    <?php include('inc/homepage/tabs-block/tab-panel/01-blog.inc'); ?>
+    <?php include('inc/homepage/tabs-block/tab-panel/02-shop.inc'); ?>
+    <?php include('inc/homepage/tabs-block/tab-panel/03-portfolio.inc'); ?>
+    <?php include('inc/homepage/tabs-block/tab-panel/04-pages.inc'); ?>
+    
+    
   </div> 
 
   <div role="tabpanel" class="tab-pane" id="home">
-    <p>Home</p>
+    <?php include('inc/homepage/tabs-block/tab-panel/00-home.inc'); ?>
   </div> 
 
   <div role="tabpanel" class="tab-pane" id="blog">
-    <p>Blog</p>
+   <?php include('inc/homepage/tabs-block/tab-panel/01-blog.inc'); ?>
   </div> 
 
   <div role="tabpanel" class="tab-pane" id="shop">
-    <p>Shop</p>
+    <?php include('inc/homepage/tabs-block/tab-panel/02-shop.inc'); ?>
   </div> 
 
   <div role="tabpanel" class="tab-pane" id="portfolio">
-    <p>Portfolio</p>
+    <?php include('inc/homepage/tabs-block/tab-panel/03-portfolio.inc'); ?>
   </div> 
 
   <div role="tabpanel" class="tab-pane" id="pages">
-    <p>Pages</p>
-  </div> 
+    <?php include('inc/homepage/tabs-block/tab-panel/04-pages.inc'); ?>
+  </div>
 
   <div role="tabpanel" class="tab-pane" id="components">
-    <p>Componentes</p>
+    <?php include('inc/homepage/tabs-block/tab-panel/05-components.inc'); ?>
   </div>
 </div>

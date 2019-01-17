@@ -445,7 +445,7 @@
   background-image: url(/images/bg-search.jpg);
   height: 100px;
 }
-#hero-search p {
+#hero-search h2 {
   color: white;
   font-size: 27px;
   font-weight: 700;
@@ -455,7 +455,7 @@
   #hero-search {
     height: 150px;
   }
-  #hero-search p {
+  #hero-search h2 {
     color: white;
     font-size: 30px;
     margin-top: 70px;

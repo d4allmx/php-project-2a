@@ -53,11 +53,6 @@
 .mm-page.mm-slideout {
   padding-top: 50px;
 }
-/*
-#mm-1{
-  top: 25px !important;
-}
-*/
 .mm-panel,
 .mm-panels {
   background-color: #fff;
@@ -158,6 +153,11 @@
     text-align: center;
     background-color: white;
     height: 80px;
+  }
+  #header-desktop .container ul li a {
+    font-weight: 700;
+    font-size: 11px;
+    color: black;
   }
   #header-desktop * {
     padding-top: 5px;
@@ -370,4 +370,39 @@
   #tabs-block .item + .item {
     margin-top: 0;
   }
+}
+#hero-search {
+  background-image: url(/images/bg-search.jpg);
+  height: 100px;
+}
+#hero-search p {
+  color: white;
+  font-size: 27px;
+  font-weight: 700;
+  margin-top: 35px;
+}
+@media (min-width: 768px) {
+  #hero-search {
+    height: 150px;
+  }
+  #hero-search p {
+    color: white;
+    font-size: 30px;
+    margin-top: 70px;
+  }
+}
+#results .container {
+  max-width: 1000px;
+}
+#results .container .num {
+  color: darkgray;
+  font-weight: 600;
+}
+#results .container .text span {
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+}
+#results .container .text p {
+  color: darkgray;
 }

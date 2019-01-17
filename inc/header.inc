@@ -1,6 +1,6 @@
 <div id="header-mobile" class="Fixed">
   <a href="#" id="menu-button"></a>
-  <img src="images/logo-black.svg" class="logo">
+  <img src="/images/logo-black.svg" class="logo">
 </div>
 
 <div id="header">
@@ -27,7 +27,7 @@
 <nav id="header-desktop" class="navbar navbar-fixed-top">
   <div class="container centered">
     <div class="logo navbar-header">
-      <img src="images/logo-black.svg" class="navbar-brand img-responsive">
+      <img src="/images/logo-black.svg" class="navbar-brand img-responsive">
     </div>
       <ul class="nav navbar-nav">
         <li><a href="#">HOME</a></li>

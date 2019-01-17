@@ -6,7 +6,7 @@
 /**
  * Add animation class on item wrapper.
  */
-$(document).on('mouseover', '#tabs-block .item', function (e) {
+$(document).on('mouseover', '.image-with-caption', function (e) {
   var wWidth = parseInt($(window).width(), 10);
 
   if (wWidth >= 992) {
@@ -17,7 +17,7 @@ $(document).on('mouseover', '#tabs-block .item', function (e) {
 /**
  * Remove animation class on item wrapper.
  */
-$(document).on('mouseout', '#tabs-block .item', function (e) {
+$(document).on('mouseout', '.image-with-caption', function (e) {
   var wWidth = parseInt($(window).width(), 10);
 
   if (wWidth >= 992) {

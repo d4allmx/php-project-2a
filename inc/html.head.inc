@@ -35,8 +35,8 @@
 <!-- Hero Slider from D4ALL JS -->
 <script src="<?php echo $level . 'js/hero.slider.js'; ?>"></script>
 
-<!-- Hero Tabs Block from D4ALL JS -->
-<script src="<?php echo $level . 'js/tabs.block.js'; ?>"></script>
+<!-- Image with Caption from D4ALL JS -->
+<script src="<?php echo $level . 'js/image.with.caption.js'; ?>"></script>
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>

@@ -38,6 +38,9 @@
 <!-- Image with Caption from D4ALL JS -->
 <script src="<?php echo $level . 'js/image.with.caption.js'; ?>"></script>
 
+<!-- Hero Starbis Block from D4ALL JS -->
+<script src="<?php echo $level . 'js/starbis.js'; ?>"></script>
+
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>

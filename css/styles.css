@@ -474,6 +474,95 @@
     display: table;
   }
 }
+#starbis-block {
+  padding: 30px 0;
+}
+#starbis-block .icon {
+  margin: 0 auto;
+  display: table;
+  color: #58c4a7;
+  font-size: 42px;
+}
+#starbis-block .icon:before {
+  font-family: 'FontAwesome';
+}
+#starbis-block .icon.line-square:before {
+  content: '\f14c';
+}
+#starbis-block .icon.list:before {
+  content: '\f0ca';
+}
+#starbis-block .icon.history:before {
+  content: '\f1da';
+}
+#starbis-block h2.title {
+  font-size: 33px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+#starbis-block em {
+  font-family: serif;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 700;
+  line-height: inherit;
+  color: #767877;
+}
+#starbis-block div[class^="col-"] {
+  margin-bottom: 30px;
+}
+#starbis-block .item {
+  border: 1px solid #e5e0e0;
+  padding: 50px 35px;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+#starbis-block .item h3.title {
+  font-family: Arial, sans-serif, helvetica;
+  color: #00030a;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 700;
+}
+#starbis-block .item .line {
+  width: 49px;
+  height: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #58c4a7;
+  margin-top: 20px;
+  -webkit-transition: all ease-in-out 0.5s;
+  -moz-transition: all ease-in-out 0.5s;
+  -ms-transition: all ease-in-out 0.5s;
+  -o-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+}
+#starbis-block .item .body {
+  margin-top: 20px;
+  font-family: Arial, sans-serif, helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71429;
+  color: #9f9f9f;
+  text-align: center;
+}
+#starbis-block .item.animation {
+  border-color: #58c4a7;
+}
+#starbis-block .item.animation .line {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 170px;
+}
+@media (min-width: 768px) {
+  #starbis-block {
+    padding-top: 75px;
+    padding-bottom: 70px;
+  }
+}
 #hero-search {
   background-image: url(/images/bg-search.jpg);
   height: 100px;

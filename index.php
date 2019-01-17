@@ -14,5 +14,6 @@
     <?php include('inc/homepage/portfolio/00-portfolio.inc'); ?>
     <?php include('inc/homepage/tabs-block/00-tabs-block.inc'); ?>
     <?php include('inc/footer.inc'); ?>
+    <?php include('inc/homepage/starbis/00-starbis.inc'); ?>
   </body>
 </html>

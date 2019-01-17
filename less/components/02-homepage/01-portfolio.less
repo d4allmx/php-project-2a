@@ -1,0 +1,48 @@
+#portfolio{
+  padding: 20px 0;
+
+  div[class^="col-"]{
+    margin-bottom: 30px;
+    .transition(all ease-in-out .5s);
+  }
+
+  h2.title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+
+    .cursive{
+      font-family: cursive;
+      color: rgb(118, 120, 119);
+    }
+
+    & + .row{
+      margin-top: 35px;
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  #portfolio{
+    padding: 60px;
+  }
+}
+
+@media(min-width: 992px) {
+  #portfolio{
+    h2.title{
+      font-size: 30px;
+    }
+  }
+}
+
+
+@media(min-width: 992px) {
+  #portfolio{
+    padding: 100px;
+
+    h2.title{
+      font-size: 33px;
+    }
+  }
+}

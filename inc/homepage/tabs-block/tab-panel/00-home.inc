@@ -1,6 +1,6 @@
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/1.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
@@ -11,7 +11,7 @@
 </div>
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/2.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
@@ -22,7 +22,7 @@
 </div>
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/3.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
@@ -33,7 +33,7 @@
 </div>
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/4.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
@@ -44,7 +44,7 @@
 </div>
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/5.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
@@ -55,7 +55,7 @@
 </div>
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/6.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
@@ -66,7 +66,7 @@
 </div>
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/7.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>

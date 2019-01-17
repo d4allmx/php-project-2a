@@ -1,5 +1,5 @@
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/8.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
@@ -10,7 +10,7 @@
 </div>
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/9.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
@@ -21,7 +21,7 @@
 </div>
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/10.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
@@ -32,7 +32,7 @@
 </div>
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/11.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
@@ -43,7 +43,7 @@
 </div>
 
 <div class="col-sm-6 col-md-4 col-lg-3">
-  <div class="item">
+  <div class="image-with-caption">
     <div class="image">
       <img src="images/12.jpg" alt="1" width="550" height="420" class="img-responsive">
     </div>
